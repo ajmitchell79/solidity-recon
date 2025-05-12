@@ -1,3 +1,26 @@
+//5. Workflow Example: Reconciliation Process
+//Step 1: Data Submission
+
+//Party A and Party B submit transaction records (amount, timestamp, hash).
+
+//Step 2: Data Matching
+
+//The smart contract automatically compares transaction hashes to identify matches.
+
+//Step 3: Discrepancy Identification
+
+//If records do not match, a dispute is logged with the reason.
+
+//Step 4: Dispute Resolution
+
+//The initiator of the dispute can resolve it by submitting new data or evidence.
+
+//Step 5: Audit Trail and Reporting
+
+//All reconciliations and disputes are permanently recorded on-chain.
+
+
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
